@@ -91,7 +91,7 @@ section{
 }
 .login-screen  .overlay{
     opacity: 0;
-    background: url(../img/loading-screen/loading.gif) no-repeat 50% 50% #0d9ebf;
+    background: url(../img/loading-screen/loading.gif) no-repeat 50% 50% #0f524d;
     -webkit-transition: opacity 6s;
 }
 .login-screen.loading .snow-drift{
@@ -143,13 +143,13 @@ section{
     -webkit-transition: top 3s 2s;
 }
 .login-screen.loading .north-pole-sign {
-    bottom: -320px;
+    bottom: -270px;
 }
 .login-screen .north-pole-sign{
     left:50%;
     bottom: 0px;
-    width:113px;
-    height:320px;
+    width:123px;
+    height:270px;
     background: url(../img/loading-screen/north-pole.png) top center;
     -webkit-transition: bottom 0.5s 11s;
 }

@@ -83,9 +83,9 @@ $(function(){
 
 			$('.north-pole-sign').on('mouseenter mouseleave', function(e){
 				if(e.type == "mouseenter"){
-					$(this).addClass('shake');
+					$(this).addClass('tada');
 				}else{
-					$(this).removeClass('shake')
+					$(this).removeClass('tada')
 				}
 			});
 
