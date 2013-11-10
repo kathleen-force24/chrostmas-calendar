@@ -52,13 +52,23 @@ $(function(){
 
 	    this.init = function(){
 	    	obj.el.each(function(){
-	    		$(this).on("click", 'ul a', obj.onNavClick); 
+	    		$(this).on("click mouseenter mouseleave", 'ul a', obj.onNavClick); 
 	    	});
 	    };
+
 	    this.onNavClick = function(e){
 	    	e.preventDefault();
-	    	$(this).addClass('magictime perspectiveRight');
+	    	if(e.type == "mouseenter") {
+	    		$(this).addClass('animated tada');
+	    	}else if(e.type == "mouseleave") {
+	    		$(this).removeClass('tada');
+	    	}
+	    	else {
+	    		$(this).addClass('magictime perspectiveRight');
+	    	}
 	    }
+
+
 	    this.init();
 	};
 
