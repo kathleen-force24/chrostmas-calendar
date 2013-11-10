@@ -18,6 +18,16 @@
 
 }
 
+
+@media (max-width: 679px)
+{
+  .login-screen h1
+   {
+      font-size:1.5em!important;
+   }
+
+}
+
 html,
 button,
 input,
