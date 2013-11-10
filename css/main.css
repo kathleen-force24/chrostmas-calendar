@@ -153,6 +153,15 @@ section{
     background: url(../img/loading-screen/north-pole.png) top center;
     -webkit-transition: bottom 0.5s 11s;
 }
+.login-screen.loading .snowman {
+    bottom: -256px;
+}
+.login-screen .snowman{
+    bottom: 0px;
+    width:256px;
+    height:256px;
+    -webkit-transition: bottom 1.5s 11s cubic-bezier(.17,.67,.83,.67);
+}
 
 
 .intro-screen {
