@@ -129,7 +129,7 @@ section{
     float:right;
 }
 .login-screen a.skip-intro:hover{
-    color: #ff0a0e;
+    color: #f0f0f0;
 }
 .login-screen.loading h1{
     top:-50%;
@@ -142,9 +142,17 @@ section{
     text-align: center;
     -webkit-transition: top 3s 2s;
 }
-
-
-
+.login-screen.loading .north-pole-sign {
+    bottom: -320px;
+}
+.login-screen .north-pole-sign{
+    left:50%;
+    bottom: 0px;
+    width:113px;
+    height:320px;
+    background: url(../img/loading-screen/north-pole.png) top center;
+    -webkit-transition: bottom 0.5s 11s;
+}
 
 
 .intro-screen {
@@ -218,6 +226,11 @@ section{
     position: absolute;
     left:0;
     top:0;
+}
+.ab-b{
+    position: absolute;
+    left:0;
+    bottom:0;
 }
 .ab-r{
     position: absolute;

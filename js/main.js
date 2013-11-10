@@ -80,6 +80,15 @@ $(function(){
 				$('html, body').removeClass('loading');
 				$('#login').removeClass('loading');
 			});
+
+			$('.north-pole-sign').on('mouseenter mouseleave', function(e){
+				if(e.type == "mouseenter"){
+					$(this).addClass('shake');
+				}else{
+					$(this).removeClass('shake')
+				}
+			});
+
 			app.login = new LOGIN( $('#login') );
 			app.intro = new INTRO( $('#intro') );
 			app.calendar = new CALENDAR( $('#calendar') );
