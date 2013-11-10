@@ -79,6 +79,24 @@ section{
     -webkit-transition: opacity 6s;
 }
 
+.login-screen.loading .snow-drift{
+    top: 100%;
+}
+.login-screen  .snow-drift{
+    width:100%;
+    height: 300px;
+    top: 75%;
+    background: url(../img/loading-screen/snow-drift.png) repeat-x top left ;
+    -webkit-transition: top 11s 6s;
+}
+.login-screen  .snow-drift .snow-bg{
+    width:100%;
+    height:100%;
+    margin-top:74px;
+    background: #ffffff;
+    display:block;
+}
+
 .login-screen.loading .snow{
     opacity:0;
 
